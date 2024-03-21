@@ -1,0 +1,415 @@
+@import url('https://fonts.cdnfonts.com/css/glass-antiqua');
+@import url('https://fonts.cdnfonts.com/css/josefin-sans?styles=19764');
+
+$body-font: 'Glass Antiqua', sans-serif;
+$secondary-font: 'Josefin Sans', sans-serif;
+$primary-color: #00344A;
+$highlight-color: #EBFF00;
+$dark-color: #00567A;
+$text-color: white;
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.headerfullbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: $primary-color;
+  padding: 0;
+  gap: 170px;
+  position: absolute;
+  height: 100px;
+
+  .titleheader {
+    color: $text-color;
+    font-size: 380%;
+    margin-left: 18px;
+    font-family: $body-font;
+    text-decoration: none;
+  }
+
+  .buttonsheader {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    color: $text-color;
+    font-size: 135%;
+    font-family: $secondary-font;
+    text-decoration: none;
+
+    .programacionheader,
+    .escueladeartesheader,
+    .alquilerteatroheader,
+    .exposicionesheader {
+      text-decoration: none;
+      color: $text-color;
+
+      &:hover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $highlight-color;
+        color: $primary-color;
+        padding: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 90%;
+        height: 40px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .iconsheader {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+    .carritoheader,
+    .usuarioheader {
+      width: 50px;
+      height: 50px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.fullbody {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  .principalimagebox {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    .principaltitle {
+      font-size: 800%;
+      font-family: $body-font;
+      color: $highlight-color;
+      font-weight: 800;
+      position: absolute;
+      text-shadow: 10px 5px 4px $primary-color;
+    }
+  }
+
+  .principalimage {
+    width: 100%;
+    height: 650px;
+  }
+
+  .programaciontitle,
+  .comediatitle,
+  .teatrofamiliartitle {
+    font-size: 350%;
+    text-align: center;
+    font-family: $body-font;
+    color: $primary-color;
+    font-weight: 800;
+  }
+
+  .obraspart {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    .obrasline1,
+    .obrasline2 {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+    }
+
+    .teatroimage {
+      width: 400px;
+      height: 450px;
+    }
+  }
+
+  
+
+  
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  gap: 0px;
+  margin-top: 150px;
+
+  .imgprefooter {
+    width: 100%;
+    height: 150px;
+  }
+
+  .contenidofooter {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    padding: 30px;
+    text-decoration: none;
+
+    .logofooter {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      margin-left: 0px;
+
+      .logoimagefooter {
+        width: 290px;
+        height: auto;
+      }
+
+      .logotextfooter {
+        font-size: 450%;
+        font-family: $body-font;
+        color: $primary-color;
+        font-weight: 600;
+      }
+    }
+
+    .iconosfooter {
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 175px;
+
+      .iconossocial {
+        width: 60px;
+        height: 60px;
+      }
+    }
+
+    .textpartfooter {
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .columnafooter {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+
+    .textfooter {
+      font-family: $secondary-font;
+      color: white;
+      font-size: 200%;
+      text-decoration: none;
+    }
+
+    
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .headerfullbox {
+    display: flex;
+    flex-direction: row;
+    background-color: $primary-color;
+    padding: 0;
+    height: 50px;
+    gap: 140px;
+    position: absolute;
+
+    .titleheader {
+      color: $text-color;
+      font-size: 200%;
+      margin-left: 10px;
+      margin-top: 3px;
+      font-family: $body-font;
+    }
+
+    .buttonsheader {
+      display: none;
+    }
+
+    .iconsheader {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+
+      .carritoheader,
+      .usuarioheader {
+        width: 25px;
+        height: auto;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .fullbody {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .principalimagebox {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+
+      .principaltitle {
+        font-size: 200%;
+        font-family: $body-font;
+        color: $highlight-color;
+        font-weight: 800;
+        position: absolute;
+        text-shadow: 3px 1px 1px $primary-color;
+      }
+    }
+
+    .principalimage {
+      width: 100%;
+      height: 200px;
+    }
+
+    .programaciontitle,
+    .comediatitle,
+    .teatrofamiliartitle {
+      font-size: 200%;
+      text-align: center;
+      font-family: $body-font;
+      color: $primary-color;
+      font-weight: 800;
+    }
+
+    .obraspart {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+
+      .obrasline1,
+      .obrasline2 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .teatroimage {
+        width: 200px;
+        height: 250px;
+      }
+    }
+  }
+
+  
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    gap: 0px;
+    width: 100%;
+    margin-top: 40px;
+
+    .imgprefooter {
+      width: 100%;
+      height: auto;
+    }
+
+    .contenidofooter {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: center;
+      padding: 10px;
+
+      .logofooter {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin-left: 0px;
+
+        .logoimagefooter {
+          width: 70px;
+          height: auto;
+        }
+
+        .logotextfooter {
+          font-size: 120%;
+          font-family: $body-font;
+          color: $primary-color;
+          font-weight: 600;
+        }
+      }
+
+      .iconosfooter {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 43px;
+
+        .iconossocial {
+          width: 15px;
+          height: 15px;
+        }
+      }
+
+      .textpartfooter {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .columnafooter {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+      }
+
+      .textfooter {
+        font-family: $secondary-font;
+        color: white;
+        font-size: 50%;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,235 @@
+@import url('https://fonts.cdnfonts.com/css/glass-antiqua');
+@import url('https://fonts.cdnfonts.com/css/josefin-sans?styles=19764');
+
+html, body, main {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.imagenfondo {
+  background-image: url("imagenfondoregister-login.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.centerpart {
+  background-color: white;
+  font-weight: bold;
+  border: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 8px;
+  
+  .firstpart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    .logoimage {
+      height: 70px;
+      width: auto;
+    }
+
+    .singintitle {
+      font-size: 260%;
+      font-family: 'Glass Antiqua', sans-serif;
+      color: #00344A;
+    }
+  }
+
+  .secondpart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .correotitle {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      gap: 10px;
+      font-size: 130%;
+      font-family: 'Josefin Sans', sans-serif;
+      color: #00344A;
+
+      .correotext {
+        height: 30px;
+        width: 430px;
+        border: 1px #00344A solid;
+        border-radius: 5px;
+      }
+    }
+
+    .contraseñatitle {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      gap: 10px;
+      font-size: 130%;
+      font-family: 'Josefin Sans', sans-serif;
+      color: #00344A;
+
+      .contraseñatext {
+        height: 30px;
+        width: 430px;
+        border: 1px #00344A solid;
+        border-radius: 5px;
+      }
+    }
+
+    
+
+    .terminostext {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: left;
+      gap: 10px;
+
+      #checkbox {
+        height: 15px;
+        width: 15px;
+      }
+
+      .textpart {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 95%;
+        color: #00344A;
+      }
+    }
+    
+  }
+  .registrarsebutton {
+    height: 60px;
+    width: 300px;
+    background-color: #00344A;
+    color: #EBFF00;
+    font-size: 160%;
+    box-shadow: 0px 3px 3px #00344A;
+    text-align: center;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+
+    &:hover {
+      background-color: #EBFF00;
+      color: #00344A;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+
+    .firstpart {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .logoimage {
+        height: 50px;
+        width: auto;
+      }
+
+      .singintitle {
+        font-size: 140%;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+    }
+
+    .secondpart {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .correotitle {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 5px;
+        font-size: 75%;
+        font-family: 'Josefin Sans', sans-serif;
+
+        .correotext {
+          height: 20px;
+          width: 250px;
+          border: 1px #00344A solid;
+          border-radius: 5px;
+        }
+      }
+
+      .contraseñatitle {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 5px;
+        font-size: 75%;
+        font-family: 'Josefin Sans', sans-serif;
+
+        .contraseñatext {
+          height: 20px;
+          width: 250px;
+          border: 1px #00344A solid;
+          border-radius: 5px;
+        }
+      }
+
+      .registrarsebutton {
+        height: 40px;
+        width: 200px;
+        background-color: #00344A;
+        color: #EBFF00;
+        font-size: 130%;
+        box-shadow: 0px 3px 3px #00344A;
+        text-align: center;
+        border-radius: 5px;
+        border: 0px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+
+        &:hover {
+          background-color: #EBFF00;
+          color: #00344A;
+        }
+      }
+
+      .terminostext {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 5px;
+        color: #00344A;
+      }
+
+      #checkbox {
+        height: 15px;
+        width: 15px;
+      }
+
+      .textpart {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 60%;
+      }
+    }
+  }
+}

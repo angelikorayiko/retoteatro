@@ -1,0 +1,1439 @@
+@import url('https://fonts.cdnfonts.com/css/glass-antiqua');
+@import url('https://fonts.cdnfonts.com/css/josefin-sans?styles=19764');
+                
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.headerfullbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #00344A;
+    padding: 0px;
+    gap: 170px;
+    position: absolute;
+    height: 100px;
+}
+
+.titleheader{
+    color: white;
+    font-size: 380%;
+    margin-left: 18px;
+    font-family: 'Glass Antiqua', sans-serif;
+    text-decoration: none;
+}
+
+.buttonsheader{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 135%;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+.programacionheader{
+    text-decoration: none;
+    color: white;
+}
+
+.escueladeartesheader{
+    text-decoration: none;
+    color: white;
+}
+
+.alquilerteatroheader{
+    text-decoration: none;
+    color: white;
+}
+
+
+.programacionheader:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBFF00;
+    color: #00344A;
+    padding: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 90%;
+    width: 186px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.escueladeartesheader:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBFF00;
+    color: #00344A;
+    padding: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 90%;
+    width: 216px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.alquilerteatroheader:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBFF00;
+    color: #00344A;
+    padding: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 90%;
+    width: 208px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.exposicionesheader:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBFF00;
+    color: #00344A;
+    padding: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 90%;
+    width: 168px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.iconsheader{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carritoheader{
+    width: 50px;
+    height: 50px;
+}
+
+.carritoheader:hover{
+    cursor: pointer;
+}
+
+.usuarioheader{
+    width: 50px;
+    height: 50px;
+}
+
+.usuarioheader:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.fullbody{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.logoprincipalimagebox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    position: absolute;
+    gap: 0px;
+}
+
+
+.logotextpart{
+    font-size: 500%;
+    font-family: 'Glass Antiqua', sans-serif;
+    color: #0C2F49;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px #A4FEFA;
+}
+
+.principalimage{
+    width: 100%;
+    height: 700px;
+}
+
+.programaciontitle{
+    font-size: 350%;
+    text-align: center;
+    font-family: 'Glass Antiqua', sans-serif;
+    color: #00344A;
+    font-weight: 700;
+}
+
+.obraspart{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.obrasline1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.obrasline2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.teatroimage{
+    width: 400px;
+    height: 450px;
+}
+
+
+
+
+
+.teatroimagediv1{
+    position: relative;
+}
+.imgtext{
+    background-color: #00567A;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 300%;
+    margin-top: 100px;
+}
+.teatroimagediv1:hover{
+    cursor: pointer;
+}
+.teatroimagediv1:hover .imgtext{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.teatroimagediv1:hover .imgtext p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    color: white;
+    border-bottom: 3px white solid;
+}
+.teatroimagediv1:hover .imgtext p2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -30px;
+    font-size: 50%;
+    color: white;
+}
+
+
+
+
+
+.teatroimagediv2{
+    position: relative;
+}
+.imgtext{
+    background-color: #00567A;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 300%;
+    margin-top: 100px;
+}
+.teatroimagediv2:hover{
+    cursor: pointer;
+}
+.teatroimagediv2:hover .imgtext{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.teatroimagediv2:hover .imgtext p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    color: white;
+    border-bottom: 3px white solid;
+}
+.teatroimagediv2:hover .imgtext p2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -30px;
+    font-size: 50%;
+    color: white;
+}
+
+
+
+
+
+.teatroimagediv3{
+    position: relative;
+}
+.imgtext{
+    background-color: #00567A;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 300%;
+    margin-top: 100px;
+}
+.teatroimagediv3:hover{
+    cursor: pointer;
+}
+.teatroimagediv3:hover .imgtext{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.teatroimagediv3:hover .imgtext p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    color: white;
+    border-bottom: 3px white solid;
+}
+.teatroimagediv3:hover .imgtext p2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -30px;
+    font-size: 50%;
+    color: white;
+}
+
+
+
+
+
+.teatroimagediv4{
+    position: relative;
+}
+.imgtext{
+    background-color: #00567A;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 100px;
+}
+.teatroimagediv4:hover{
+    cursor: pointer;
+}
+.teatroimagediv4:hover .imgtext{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.teatroimagediv4:hover .imgtext p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    color: white;
+    border-bottom: 3px white solid;
+    font-size: 110%;
+}
+.teatroimagediv4:hover .imgtext p2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -30px;
+    font-size: 50%;
+    color: white;
+}
+
+
+
+
+
+.teatroimagediv5{
+    position: relative;
+}
+.imgtext{
+    background-color: #00567A;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 250%;
+    margin-top: 100px;
+}
+.teatroimagediv5:hover{
+    cursor: pointer;
+}
+.teatroimagediv5:hover .imgtext{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.teatroimagediv5:hover .imgtext p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    color: white;
+    border-bottom: 3px white solid;
+}
+.teatroimagediv5:hover .imgtext p2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -30px;
+    font-size: 50%;
+    color: white;
+}
+
+
+
+
+
+.teatroimagediv6{
+    position: relative;
+}
+.imgtext{
+    background-color: #00567A;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 300%;
+    margin-top: 100px;
+}
+.teatroimagediv6:hover{
+    cursor: pointer;
+}
+.teatroimagediv6:hover .imgtext{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.teatroimagediv6:hover .imgtext p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    color: white;
+    border-bottom: 3px white solid;
+}
+.teatroimagediv6:hover .imgtext p2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -30px;
+    font-size: 50%;
+    color: white;
+}
+
+
+
+
+
+
+.programacionbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.verprogramacion{
+    width: 350px;
+    height: 60px;
+    background-color: #00344A;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 110%;
+    font-weight: 700px;
+}
+.verprogramacion:hover{
+    background-color: #EBFF00;
+    color: #00344A;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.fondoazulpart{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+}
+
+.eventospart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    background-color: #00344A;
+    height: auto;
+    padding: 0px;
+    height: 650px;
+}
+
+.eventodestacado{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventodestacadotitle{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #EBFF00;
+    font-size: 180%;
+}
+
+.eventodestacadoimage{
+    width: 350px;
+    height: 500px;
+}
+
+.eventodestacadoimage:hover{
+    cursor: pointer;
+}
+
+.exposiciones{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.exposicionestitle{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #EBFF00;
+    font-size: 180%;
+}
+
+.exposicionesimage{
+    width: 350px;
+    height: 500px;
+}
+
+.exposicionesimage:hover{
+    cursor: pointer;
+}
+
+.escueladearte{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.escueladeartetitle{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #EBFF00;
+    font-size: 180%;
+}
+
+.escueladearteimage{
+    width: 350px;
+    height: 500px;
+}
+
+.escueladearteimage:hover{
+    cursor: pointer;
+}
+
+.calendarubipart{
+    display: flex;
+    flex-direction: row;
+    background-color: #00344A;
+    height: auto;
+    justify-content: center;
+    gap: 170px;
+    padding: 0px;
+    height: 550px;
+}
+
+.calendarpart{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    gap: 80px;
+}
+
+.calendartitle{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #EBFF00;
+    font-size: 220%;
+}
+
+#calendario{
+    width: 280px;
+    height: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-color: #EBFF00;
+    border-radius: 5px;
+    border-width: 5px;
+    color: #00567A;
+    padding: 0px;
+    font-size: 110%;
+}
+
+.lineaseparatoria{
+    background-color: #EBFF00;
+    width: 5px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.ubipart{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 70px;
+}
+
+.ubititle{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #EBFF00;
+    font-size: 220%;
+    margin-top: 350px;
+}
+
+.descriptionpart{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.descriptiontitle{
+    font-family: 'Glass Antiqua', sans-serif;
+    color: #00567A;
+    font-weight: 700;
+    font-size: 450%;
+}
+
+.descriptiontext{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #00567A;
+    font-size: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    gap: 0px;
+    margin-top: 150px;
+}
+
+.imgprefooter{
+    width: 100%;
+    height: 150px;
+}
+
+.contenidofooter{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    padding: 0px;
+}
+
+.logofooter{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+.logoimagefooter{
+    width: 290px;
+    height: auto;
+}
+
+.logotextfooter{
+    font-size: 450%;
+    font-family: 'Glass Antiqua', sans-serif;
+    color: #0C2F49;
+    font-weight: 600;
+}
+
+.iconosfooter {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 175px;
+}
+
+.iconossocial {
+    width: 60px;
+    height: 60px;
+}
+
+.textpartfooter{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnafooter{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.textfooter{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    .headerfullbox{
+        display: flex;
+        flex-direction: row;
+        background-color: #00344A;
+        padding: 0px;
+        height: 50px;
+        gap: 140px;
+        position: absolute;
+    }
+    .titleheader{
+        color: white;
+        font-size: 200%;
+        margin-left: 10px;
+        margin-top: 3px;
+        font-family: 'Glass Antiqua', sans-serif;
+    }
+    
+    .buttonsheader{
+        display: none;
+    }
+    
+    .iconsheader{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .carritoheader{
+        width: 25px;
+        height: auto;
+    }
+    
+    .carritoheader:hover{
+        cursor: pointer;
+    }
+    
+    .usuarioheader{
+        width: 25px;
+        height: auto;
+    }
+    
+    .usuarioheader:hover{
+        cursor: pointer;
+    }
+
+
+
+
+
+    .fullbody{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .logoprincipalimagebox{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        position: absolute;
+        gap: 0px;
+    }
+    
+    .logoprincipalimage{
+        width: 100px;
+        height: auto;
+    }
+    
+    .logotextpart{
+        font-size: 170%;
+        font-family: 'Glass Antiqua', sans-serif;
+        color: #0C2F49;
+        font-weight: 700;
+        text-shadow: 1px 1px 1px #A4FEFA;
+    }
+    
+    .principalimage{
+        width: 100%;
+        height: auto;
+    }
+    
+    .programaciontitle{
+        font-size: 170%;
+        text-align: center;
+        font-family: 'Glass Antiqua', sans-serif;
+        color: #00344A;
+        font-weight: 700;
+    }
+    
+    .obraspart{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    
+    .obrasline1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .obrasline2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .teatroimage{
+        width: 200px;
+        height: 250px;
+    }
+
+
+
+
+
+
+    .teatroimagediv1{
+        position: relative;
+    }
+    .imgtext{
+        background-color: #00567A;
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        justify-content: center;
+        text-align: center;
+        opacity: 0.8;
+        font-size: 170%;
+        margin-top: 100px;
+    }
+    .teatroimagediv1:hover{
+        cursor: pointer;
+    }
+    .teatroimagediv1:hover .imgtext{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .teatroimagediv1:hover .imgtext p{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 10px;
+        color: white;
+        border-bottom: 3px white solid;
+    }
+    .teatroimagediv1:hover .imgtext p2{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: -20px;
+        font-size: 50%;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    .teatroimagediv2{
+        position: relative;
+    }
+    .imgtext{
+        background-color: #00567A;
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        justify-content: center;
+        text-align: center;
+        opacity: 0.8;
+        font-size: 170%;
+        margin-top: 100px;
+    }
+    .teatroimagediv2:hover{
+        cursor: pointer;
+    }
+    .teatroimagediv2:hover .imgtext{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .teatroimagediv2:hover .imgtext p{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 10px;
+        color: white;
+        border-bottom: 3px white solid;
+    }
+    .teatroimagediv2:hover .imgtext p2{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: -20px;
+        font-size: 50%;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    .teatroimagediv3{
+        position: relative;
+    }
+    .imgtext{
+        background-color: #00567A;
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        justify-content: center;
+        text-align: center;
+        opacity: 0.8;
+        font-size: 170%;
+        margin-top: 100px;
+    }
+    .teatroimagediv3:hover{
+        cursor: pointer;
+    }
+    .teatroimagediv3:hover .imgtext{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .teatroimagediv3:hover .imgtext p{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 10px;
+        color: white;
+        border-bottom: 3px white solid;
+    }
+    .teatroimagediv3:hover .imgtext p2{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: -20px;
+        font-size: 50%;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    .teatroimagediv4{
+        position: relative;
+    }
+    .imgtext{
+        background-color: #00567A;
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        justify-content: center;
+        text-align: center;
+        opacity: 0.8;
+        font-size: 170%;
+        margin-top: 100px;
+    }
+    .teatroimagediv4:hover{
+        cursor: pointer;
+    }
+    .teatroimagediv4:hover .imgtext{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .teatroimagediv4:hover .imgtext p{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 10px;
+        color: white;
+        border-bottom: 3px white solid;
+        font-size: 100%;
+    }
+    .teatroimagediv4:hover .imgtext p2{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: -20px;
+        font-size: 50%;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    .teatroimagediv5{
+        position: relative;
+    }
+    .imgtext{
+        background-color: #00567A;
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        justify-content: center;
+        text-align: center;
+        opacity: 0.8;
+        font-size: 170%;
+        margin-top: 100px;
+    }
+    .teatroimagediv5:hover{
+        cursor: pointer;
+    }
+    .teatroimagediv5:hover .imgtext{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .teatroimagediv5:hover .imgtext p{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 10px;
+        color: white;
+        border-bottom: 3px white solid;
+    }
+    .teatroimagediv5:hover .imgtext p2{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: -20px;
+        font-size: 50%;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    .teatroimagediv6{
+        position: relative;
+    }
+    .imgtext{
+        background-color: #00567A;
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        justify-content: center;
+        text-align: center;
+        opacity: 0.8;
+        font-size: 170%;
+        margin-top: 600px;
+    }
+    .teatroimagediv6:hover{
+        cursor: pointer;
+    }
+    .teatroimagediv6:hover .imgtext{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .teatroimagediv6:hover .imgtext p{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 10px;
+        color: white;
+        border-bottom: 3px white solid;
+    }
+    .teatroimagediv6:hover .imgtext p2{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: -20px;
+        font-size: 50%;
+        color: white;
+    }
+
+
+
+
+
+
+
+    .programacionbutton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .verprogramacion{
+        width: 250px;
+        height: 40px;
+        background-color: #00344A;
+        border-radius: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        font-size: 70%;
+        font-weight: 700px;
+    }
+    .verprogramacion:hover{
+        background-color: #EBFF00;
+        color: #00344A;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+    .fondoazulpart{
+        display: flex;
+        flex-direction: column;
+        gap: -1px;
+    }
+    
+    .eventospart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        background-color: #00344A;
+        height: 1150px;
+        padding: 0px;
+    }
+    
+    .eventodestacado{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .eventodestacadotitle{
+        font-family: 'Josefin Sans', sans-serif;
+        color: #EBFF00;
+        font-size: 140%;
+    }
+    
+    .eventodestacadoimage{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .eventodestacadoimage:hover{
+        cursor: pointer;
+    }
+    
+    .exposiciones{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .exposicionestitle{
+        font-family: 'Josefin Sans', sans-serif;
+        color: #EBFF00;
+        font-size: 140%;
+    }
+    
+    .exposicionesimage{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .exposicionesimage:hover{
+        cursor: pointer;
+    }
+    
+    .escueladearte{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .escueladeartetitle{
+        font-family: 'Josefin Sans', sans-serif;
+        color: #EBFF00;
+        font-size: 140%;
+    }
+    
+    .escueladearteimage{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .escueladearteimage:hover{
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+    .calendarubipart{
+        display: flex;
+        flex-direction: column;
+        background-color: #00344A;
+        height: auto;
+        justify-content: center;
+        gap: 120px;
+        padding: 0px;
+    }
+    
+    .calendarpart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 20px;
+    }
+    
+    .calendartitle{
+        font-family: 'Josefin Sans', sans-serif;
+        color: #EBFF00;
+        font-size: 150%;
+        text-align: center;
+    }
+    
+    #calendario{
+        width: 200px;
+        height: auto;
+        font-family: 'Josefin Sans', sans-serif;
+        border-color: #EBFF00;
+        border-radius: 5px;
+        border-width: 5px;
+        color: #00567A;
+        padding: 0px;
+        font-size: 80%;
+    }
+    
+    .lineaseparatoria{
+        background-color: #00344A;
+        width: 1px;
+        height: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    
+    .ubipart{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .ubititle{
+        font-family: 'Josefin Sans', sans-serif;
+        color: #EBFF00;
+        font-size: 150%;
+        margin-top: 0px;
+        text-align: center;
+    }
+    
+    #ubicacionimage{
+        width: 300px;
+        height: 300px;
+    }
+
+
+
+
+
+    .descriptionpart{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .descriptiontitle{
+        font-family: 'Glass Antiqua', sans-serif;
+        color: #00567A;
+        font-weight: 700;
+        font-size: 250%;
+    }
+    
+    .descriptiontext{
+        font-family: 'Josefin Sans', sans-serif;
+        color: #00567A;
+        font-size: 70%;
+    }
+
+
+
+
+
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        gap: 0px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .imgprefooter{
+        width: 100%;
+        height: auto;
+    }
+    
+    .contenidofooter{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .logofooter{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin-left: 0px;
+    }
+    
+    .logoimagefooter{
+        width: 70px;
+        height: auto;
+    }
+    
+    .logotextfooter{
+        font-size: 120%;
+        font-family: 'Glass Antiqua', sans-serif;
+        color: #0C2F49;
+        font-weight: 600;
+    }
+    
+    .iconosfooter {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 43px;
+    }
+    
+    .iconossocial {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .textpartfooter{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .columnafooter{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+    
+    .textfooter{
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        font-size: 50%;
+        font-weight: 500;
+    }
+}
