@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: retoteatro-deployment
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: retoteatro
@@ -14,19 +14,14 @@ spec:
     spec:
       containers:
       - name: retoteatro-container
-        image: mi-app-retoteatro:latest
+        image: angeladan/retoteatro
         ports:
-        - containerPort: 80
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: retoteatro-service
-spec:
-  selector:
-    app: retoteatro
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 80
-  type: LoadBalancer
+        - containerPort: 8080
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "80m"
+          limits:
+            memory: "128Mi"
+            cpu: "250m"
+
